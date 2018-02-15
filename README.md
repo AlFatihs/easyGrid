@@ -1,2 +1,3 @@
 # easyGrid
-A simple CSS Grid system
+
+_A simple CSS Grid system_
