@@ -15,7 +15,7 @@ _A simple CSS Grid system_
   <link rel="stylesheet" href="easygrid.min.css">
 </head>
 ```
-3. Use class methods on your document's `<body>`
+3. Use class methods on your HTMl
 
 ```html
 <div class="col-06-large">A block</div>
