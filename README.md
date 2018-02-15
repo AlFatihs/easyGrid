@@ -26,6 +26,13 @@ or with 'row'
    <div class="col-12-small col-06-mid col-03-large">A block</div>
 </div>
 ```
+or as short-hand
+
+```html
+<div class="row">	
+   <div class="col-12-s col-06-m col-03-l">A block</div>
+</div>
+```
 
 ## License
 
