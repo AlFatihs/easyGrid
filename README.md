@@ -19,4 +19,4 @@ _A simple CSS Grid system_
 
 ## License
 
-Animate.css is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+easyGrid is licensed under the MIT license. (http://opensource.org/licenses/MIT)
