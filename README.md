@@ -21,7 +21,9 @@ _A simple CSS Grid system_
 <div class="col-06-large">A block</div>
 
 <div class="row">	
-   <div class="col-12-small col-06-mid col-03-large">A block</div>
+   <div class="col-12-small col-06-mid col-03-large">
+      This column appears full in small display, half in medium display and one-fourth in large display
+   </div>
 </div>
 ```
 
