@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+/*!
+ * easygrid.css -https://github.com/AlFatihs/easyGrid
+ * Version - 1.0.0
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2018 Al Fatih Abdullah
+ */
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  margin-right: -0.5rem;
+  margin-left: -0.5rem;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 1 auto;
+  -ms-flex: 0 1 auto;
+  flex: 0 1 auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.row::after { clear: both; }
+.row::before, .row::after {
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.container::after { clear: both; }
+.container::before, .container::after {
+    content: "";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+@media (min-width: 1600px){
+	.container{ max-width: 1400px; }
+} 
+[class*='col-']:last-of-type {
+  padding-right: 0 !important;
+}
+[class*='col-']:last-child {
+  padding-right: 0;
+}
+[class*='col-'] {
+	float: left;
+}
+[class*='col-01'] {width: 8.33333%}
+[class*='col-02'] {width: 16.6667%}
+[class*='col-03'] {width: 25%}
+[class*='col-04'] {width: 33.3333%}
+[class*='col-05'] {width: 41.6667%}
+[class*='col-06'] {width: 50%}
+[class*='col-07'] {width: 58.3333%}
+[class*='col-08'] {width: 66.6667%}
+[class*='col-09'] {width: 75%}
+[class*='col-10'] {width: 83.3333%}
+[class*='col-11'] {width: 91.6667%}
+[class*='col-12'] {width: 100%}
+
+@media (min-width: 320px) {
+	.col-01-s,.col-01-small{width: 8.33333%}
+    .col-02-s,.col-02-small{width: 16.6667%}
+    .col-03-s,.col-03-small{width: 25%}
+    .col-04-s,.col-04-small{width: 33.3333%}
+    .col-05-s,.col-05-small{width: 41.6667%}
+    .col-06-s,.col-06-small{width: 50%}
+    .col-07-s,.col-07-small{width: 58.3333%}
+    .col-08-s,.col-08-small{width: 66.6667%}
+    .col-09-s,.col-09-small{width: 75%}
+    .col-10-s,.col-10-small{width: 83.3333%}
+    .col-11-s,.col-11-small{width: 91.6667%}
+    .col-12-s,.col-12-small{width: 100%}
+}
+@media (min-width: 641px) {
+	.col-01-m,.col-01-mid{width: 8.33333%}
+    .col-02-m,.col-02-mid{width: 16.6667%}
+    .col-03-m,.col-03-mid{width: 25%}
+    .col-04-m,.col-04-mid{width: 33.3333%}
+    .col-05-m,.col-05-mid{width: 41.6667%}
+    .col-06-m,.col-06-mid{width: 50%}
+    .col-07-m,.col-07-mid{width: 58.3333%}
+    .col-08-m,.col-08-mid{width: 66.6667%}
+    .col-09-m,.col-09-mid{width: 75%}
+    .col-10-m,.col-10-mid{width: 83.3333%}
+    .col-11-m,.col-11-mid{width: 91.6667%}
+    .col-12-m,.col-12-mid{width: 100%}
+}
+@media (min-width: 961px) {
+	.col-01-l,.col-01-large{width: 8.33333%}
+    .col-02-l,.col-02-large{width: 16.6667%}
+    .col-03-l,.col-03-large{width: 25%}
+    .col-04-l,.col-04-large{width: 33.3333%}
+    .col-05-l,.col-05-large{width: 41.6667%}
+    .col-06-l,.col-06-large{width: 50%}
+    .col-07-l,.col-07-large{width: 58.3333%}
+    .col-08-l,.col-08-large{width: 66.6667%}
+    .col-09-l,.col-09-large{width: 75%}
+    .col-10-l,.col-10-large{width: 83.3333%}
+    .col-11-l,.col-11-large{width: 91.6667%}
+    .col-12-l,.col-12-large{width: 100%}
+}
