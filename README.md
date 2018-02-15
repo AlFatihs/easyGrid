@@ -17,15 +17,13 @@ _A simple CSS Grid system_
 ```
  
 ```html
-<div class="col-12-small col-06-mid col-03-large">A block</div>
-```
-or with 'row'
+<div class="col-06-large">A block</div>
 
-```html
 <div class="row">	
    <div class="col-12-small col-06-mid col-03-large">A block</div>
 </div>
 ```
+
 or as short-hand
 
 ```html
