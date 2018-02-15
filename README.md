@@ -4,7 +4,7 @@ _A simple CSS Grid system_
 
 `easyGrid` is a lightweight, super-simple and cross-browser HTML grid library for you to use in your projects.
 
-## Usage
+## Basic Usage
 
 1. Include the stylesheet on your document's `<head>`
 2. Additionally you need 'viewport' meta tag on your document's `<head>`
@@ -16,6 +16,11 @@ _A simple CSS Grid system_
 </head>
 ```
  
+```html
+<div class="row">	
+	<div class="col-12-small col-06-mid col-03-large">A block</div>
+</div>
+```
 
 ## License
 
