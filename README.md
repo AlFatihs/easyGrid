@@ -12,7 +12,7 @@ _A simple CSS Grid system_
 <head>
   <link rel="stylesheet" href="easygrid.min.css">
 </head>
-
+```
 
 
 
