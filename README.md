@@ -7,7 +7,7 @@ _A simple CSS Grid system_
 ## Basic Usage
 
 1. Include the stylesheet on your document's `<head>`
-2. Additionally you need 'viewport' meta tag on your document's `<head>`
+2. You need to using 'viewport' meta tag on your document's `<head>` for proper works
 
 ```html
 <head>
